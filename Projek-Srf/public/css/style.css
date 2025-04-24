@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ecf0f1, #f9fafb);
+    color: #333;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    color: #34495e;
+    margin-top: 40px;
+    font-size: 28px;
+    position: relative;
+  }
+  
+  h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #1abc9c;
+    margin-top: 8px;
+    border-radius: 2px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    font-size: 18px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #5f5f63;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.2s ease;
+  }
+  
+  a:hover {
+    color: #1abc9c;
+    text-shadow: 0 0 5px rgba(26, 188, 156, 0.3);
+  }
+  
+  a:focus, button:focus {
+    outline: 2px dashed #1abc9c;
+    outline-offset: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  th {
+    background-color: #1579dc;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  td {
+    padding: 12px;
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f4f6f7;
+  }
+  
+  tr:hover td {
+    background-color: #e0f7fa;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background: linear-gradient(to right, #3498db, #1abc9c);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #1abc9c, #16a085);
+  }
+  
